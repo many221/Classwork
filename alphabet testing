@@ -1,0 +1,11 @@
+let a = 97
+let z =122
+let aCap = 65
+let zCap = 90
+let test = a
+
+for (let i = 0; i <= 25; i++) {
+
+ console.log(i,String.fromCharCode(test + i),`| ${String.fromCharCode(test + 25 - i)} ${ 25 - i}`);
+}
+
